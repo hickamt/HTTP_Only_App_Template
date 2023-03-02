@@ -9,7 +9,7 @@ This is a work in progress, meaning it will have non-standard organization and c
 
 ## Test Drive on StackBlitz
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/Client_and_Server_Template)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/HTTP_Only_App_Template/)
 
 ## Spin-Up the Application
 
