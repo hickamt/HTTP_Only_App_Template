@@ -22,7 +22,7 @@ CLONE THIS REPOSITORY
 - [Cloning a Repository: GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ```c
-$ git clone https://github.com/hickamt/Client_and_Server_Template.git
+$ git clone https://github.com/hickamt/HTTP_Only_App_Template.git
 ```
 
 ## Using Concurrently
@@ -41,7 +41,7 @@ Server should now be running at:
 
 ## Login Username and Password for Testing
 
-You can add or change the login information withing /express_server: [server model](./express_server/model/users.json)
+You can add or change the login information withing /express_server: [server model](./express/model/users.json)
 
 To login, copy and paste the following. For now, the email IS CASE SENSITIVE:
 
@@ -49,20 +49,6 @@ To login, copy and paste the following. For now, the email IS CASE SENSITIVE:
 email:  GuestUser@localhost.com
 pass:   fiveFourThree
 ```
-
-## Application Directory Navigation Links
-
-REACT CLIENT:
-
-- [Client Directory](./react_client/)
-  - [README: My Notes While Creating the Client Side](./react_client/README.md)
-  - [Package.JSON](./react_client/package.json)
-
-EXPRESS SERVER:
-
-- [Server Directory](./express_server/)
-  - [README: My Notes While Creating the Server Side](./express_server/README.md)
-  - [Package.JSON](./express_server/package.json)
 
 ## About
 
