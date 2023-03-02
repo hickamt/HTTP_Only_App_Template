@@ -1,0 +1,101 @@
+/* 
+  See: React-Bootstrap for Layout Schemes
+  https://react-bootstrap.netlify.app/components/navbar/#rb-docs-content  
+*/
+
+/* #root covers the upper portion of page  */
+#root {
+  background-color: var(--backgroundColor);
+  background-image: url("https://wallpapercave.com/wp/wp11429695.jpg");
+}
+
+/* :root controls css background for entire page */
+:root {
+  background-color: #09243b;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Home Page */
+.homePageCardBody {
+  margin: 2em;
+  opacity: 0.8;
+  width: 18rem;
+}
+
+.reactCardImage {
+  height: 200px;
+  width: 30px;
+}
+
+/* Layout Page */
+.navbar {
+  background-color: #09243b;
+}
+
+.navLogo {
+  border-radius: 20px;
+  height: 2em;
+  width: 2em;
+  margin-left: 0.5em;
+}
+
+/* Layout.jsx */
+.navLogoutButton {
+  margin-right: 0.5em;
+}
+
+.layoutFooter {
+  color: white;
+  font-size: small;
+  margin-top: 2em;
+}
+
+.userNameText {
+  color: #596670;
+}
+
+.h5Text {
+  color: white;
+  padding-left: 0.5em;
+}
+
+.h6Text {
+  color: white;
+  padding-top: 0.25em;
+}
+
+/* Login Page */
+.form-label,
+.mb-3 {
+  color: #ffffffda;
+  text-align: left;
+}
+
+.formControl {
+  color: white;
+}
+
+.loginContainer {
+  padding-top: 3em;
+  padding-bottom: 20em;
+}
+
+/* Characters Page */
+.characterTable {
+  margin-top: 2em;
+  padding-bottom: 5em;
+}
+
+.tableHeader {
+  color: white;
+  vertical-align: center;
+}
+
+.tableBody {
+  color: white;
+}
+
+.tableImage {
+  border-radius: 16px;
+}

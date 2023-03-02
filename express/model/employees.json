@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "firstname": "Darth",
+    "lastname": "Vader",
+    "home_world": "Tatooine",
+    "rank": "Dark Lord",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg",
+    "img_alt": "Darth Vader"
+  },
+  {
+    "id": 2,
+    "firstname": "Luke",
+    "lastname": "Skywalker",
+    "home_world": "Tatooine",
+    "rank": "Jedi",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_fb34a1ff.jpeg",
+    "img_alt": "Luke Skywalker"
+  },
+  {
+    "id": 3,
+    "firstname": "Han",
+    "lastname": "Solo",
+    "home_world": "Corellia",
+    "rank": "Smuggler",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg",
+    "img_alt": "Han Solo"
+  },
+  {
+    "id": 4,
+    "firstname": "Leia",
+    "lastname": "Organa",
+    "home_world": "Alderaan",
+    "rank": "Jedi",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-feature-image_d0f5e9_056d9177.jpeg",
+    "img_alt": "Leia Organa"
+  },
+  {
+    "id": 5,
+    "firstname": "Obi-Wan",
+    "lastname": "Kenobi",
+    "home_world": "Stewjon",
+    "rank": "Jedi",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg",
+    "img_alt": "Obi-Wan Kenobi"
+  },
+  {
+    "id": 6,
+    "firstname": "Yoda",
+    "lastname": "",
+    "home_world": "Secret It Is",
+    "rank": "Jedi Master",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg",
+    "img_alt": "Yoda"
+  }
+]

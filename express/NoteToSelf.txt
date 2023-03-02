@@ -1,0 +1,23 @@
+Left Off At: 38:00 minutes | https://www.youtube.com/watch?v=favjC6EKFgw&list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw&index=12
+
+Issue, when authenticating the localhost:5500/refresh should use
+the /auth cookie to allow a new authentication token to be created.
+
+This is not working and getting code 401 unauthorized
+coming from /controllers/refreshTokencontroller.js about line 17.
+
+Probable issue is that I need to set up a {variable} within Thunder Client to allow
+the authentication token and cookies to be inherited in some way.
+
+Check the final github repo and insure that the following have the same code:
+* file names
+* require() routes
+* middleware
+* and controllers
+
+- completed code: https://github.com/gitdagray/express_jwt
+
+NEXT STEPS:
+Need to create the Client side registration and login using JWT and httpCookie only.
+This app should allow requests to the server API endpoints using the AuthenticationToken and
+create new AuthTokens using the refreshToken API.
