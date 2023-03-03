@@ -20,8 +20,8 @@ const Login = () => {
   return (
     <>
       <Container fluid className="loginContainer">
-        <Row>
-          <Col className="col-md-8 offset-md-2">
+        <Row className="justify-content-center">
+          <Col className="col-lg-6">
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control

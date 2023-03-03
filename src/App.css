@@ -3,6 +3,10 @@
   https://react-bootstrap.netlify.app/components/navbar/#rb-docs-content  
 */
 
+* {
+  --background-primary: #09243b;
+}
+
 /* #root covers the upper portion of page  */
 #root {
   background-color: var(--backgroundColor);
@@ -11,7 +15,7 @@
 
 /* :root controls css background for entire page */
 :root {
-  background-color: #09243b;
+  background-color: var(--background-primary);
   text-align: center;
   margin: 0 auto;
 }
@@ -30,7 +34,7 @@
 
 /* Layout Page */
 .navbar {
-  background-color: #09243b;
+  background-color: var(--background-primary);
 }
 
 .navLogo {

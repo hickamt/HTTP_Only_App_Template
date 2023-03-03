@@ -21,9 +21,10 @@ export const AuthContextProvider = ({ children }) => {
   // second API await is for a verified call to get and store the
   // users information which is attached to the cookie
   const login = async (payload) => {
-    let apiResponse = await axios.post("http://localhost:5500/auth", payload, {
-      withCredentials: true,
-    });
+    let apiResponse = await axios
+      .post("http://localhost:5500/auth", payload, {
+        withCredentials: true,
+      })
     // .catch(function (error) {} // Need to properly catch & handle statusCodes from server
 
     localStorage.setItem("userProfile", JSON.stringify(apiResponse.data));
