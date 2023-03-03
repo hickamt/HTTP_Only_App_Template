@@ -6,7 +6,7 @@
 /* #root covers the upper portion of page  */
 #root {
   background-color: var(--backgroundColor);
-  background-image: url("https://wallpapercave.com/wp/wp11429695.jpg");
+  /* background-image: url("https://wallpapercave.com/wp/wp11429695.jpg"); */
 }
 
 /* :root controls css background for entire page */
