@@ -36,7 +36,7 @@ $ git clone https://github.com/hickamt/HTTP_Only_App_Template.git
 ## Using Concurrently
 
 ```c
-$ npm run app
+$ npm run dev
 ```
 
 Client should now be viewable in your browser at:
