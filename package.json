@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "app": " concurrently \"npm run server\" \"npm run dev\" ",
+    "dev": " concurrently \"npm run server\" \"npm run client\" ",
     "server": "cd express && npm run dev",
-    "dev": "vite",
+    "client": "vite",
     "build": "vite build"
   },
   "dependencies": {
