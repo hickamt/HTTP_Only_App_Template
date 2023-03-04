@@ -64,4 +64,4 @@ Application template for client side and server side communication using HTTP On
 
 When logging in, the client information is recieved by the server and produces the auth token and a refresh token using http only cookie. While the refresh token is valid, the client may stay logged in and access any page the user is validated to access.
 
-As known methods of acquiring a users access token leave the client side vulnerable to security risk, this method attempts to reduce or eliminate that possible security vector. I currently understand that if an attempt to read the token is made by an unrecognized url, the browser will see that the token is http only which raises a floag and should return the token as an empty string.
+As known methods of acquiring a users access token leave the client side vulnerable to security risk, this method attempts to reduce or eliminate that possible security vector. I currently understand that if an attempt to read the token is made by an unrecognized url, the browser will see that the token is http only which raises a flag and should return the token as an empty string.
