@@ -7,10 +7,10 @@ This application project is a culmination of various online tutorials and blogs.
 
 This is a work in progress, meaning it will have non-standard organization and coding practices. At the time of writing this I am working through a term in Intro to Web Dev, so yeah I am working a bit ahead. The series of courses wt Portland State University (PSU) will take me from basic CSS, HTML to Front-End and finally Full-Stack before graduation in 2024.
 
-## Online VSCode
+## View: VSCode Online
 
 <a href="https://vscode.dev/github/hickamt/HTTP_Only_App_Template">
-<img src="./src/assets/img/vs-btn.png" alt="vscode button" width="auto" height="70px" />
+<img src="./src/assets/img/vs-btn.png" alt="vscode button" width="auto" height="60px" />
 </a>
 
 ## Test Drive on StackBlitz
