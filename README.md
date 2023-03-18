@@ -51,7 +51,7 @@ Server should now be running at:
 
 You can add or change the login information withing /express_server: [server model](./express/model/users.json)
 
-To login, copy and paste the following. For now, the email IS CASE SENSITIVE:
+To login, copy and paste the following.
 
 ```
 email:  GuestUser@localhost.com

@@ -9,7 +9,7 @@ const Login = () => {
 
   const loginSubmit = async () => {
     let payload = {
-      email: email.current.value,
+      email: email.current.value.toLowerCase(),
       password: password.current.value,
     };
     // After entry of email/password, 'login(payload)' is a call
@@ -45,8 +45,7 @@ const Login = () => {
             <Button
               variant="outline-secondary"
               type="button"
-              onClick={loginSubmit}
-            >
+              onClick={loginSubmit}>
               <h6 className="h6Text">Login</h6>
             </Button>
           </Col>
